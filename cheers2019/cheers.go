@@ -306,6 +306,7 @@ mainloop:
 			time.Sleep(50 * time.Millisecond)
 		}
 		Vaccuum()
+		break mainloop
 	}
 
 }
